@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import ReactPaginate from 'react-paginate';
 import Loader from './Loader/loader';
 import Table from './Table/Table';
@@ -7,43 +8,6 @@ import ModeSelector from './Loader/modeSelector';
 import TableSearch from './Table/TableSearch';
 import _ from 'lodash';
 
-
-
-// class Table extends Component {
-//    Constructor(){
-//
-//
-//    };
-//    render(){
-//       return (
-//          <div className='main'>
-//             <table>
-//                <tr>
-//                   <th>№</th>
-//                   <th>Country</th>
-//                   <th>Population</th>
-//                   <th>Economy</th>
-//                   <th>Avarage Salary</th>
-//                   <th></th>
-//                </tr>
-//                {data.map(newData => (
-//                <tr>
-//                   <td>{newData.id}</td>
-//                   <td>{newData.country}</td>
-//                   <td>{newData.population}</td>
-//                   <td>{newData.economy}</td>
-//                   <td>{newData.averageSalary}</td>
-//                   <td>tt</td>
-//                </tr>
-//                ))}
-//                <tr>
-//
-//                </tr>
-//             </table>
-//          </div>
-//       )
-//    }
-// }
 
 class App extends Component {
   state ={
