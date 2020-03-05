@@ -1,0 +1,23 @@
+.main{
+   width:100%;
+   margin: 10%;
+}
+
+table{
+   width:80%;
+}
+
+th{
+   background-color: black;
+   color: white;
+}
+
+td{
+   color:#282828;
+   border-bottom: 1px solid;
+   border-color: rgb(222, 226, 230);
+}
+
+th,td{
+   width:60px;
+}
