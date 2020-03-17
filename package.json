@@ -1,16 +1,24 @@
 {
-  "name": "my-app",
+  "name": "data-grid",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "cra-template": "1.0.2",
-    "lodash": "^4.17.15",
+    "@material-ui/core": "^4.9.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "faker": "^4.1.0",
     "react": "^16.13.0",
+    "react-csv": "^2.0.1",
     "react-dom": "^16.13.0",
-    "react-paginate": "^6.3.2",
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.0",
-    "redux": "^4.0.5"
+    "react-select": "^3.0.8",
+    "react-toggle-button": "^2.2.0",
+    "react-window": "^1.8.5",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,8 +40,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "redux-devtools": "^3.5.0"
   }
 }
